@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "313540489128",
+    "project_id": "fir-ex2-d42c6",
+    "storage_bucket": "fir-ex2-d42c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313540489128:android:224983725e70bfd7c6f79d",
+        "android_client_info": {
+          "package_name": "com.example.firebaseex2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfk2rVpTDlV2kw-svle4eyO-tu6fOu8XI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

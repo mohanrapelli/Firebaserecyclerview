@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<data>
+    <variable
+        name="Cricket"
+        type="com.example.firebaseex2.CricketModel" />
+</data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:layout_weight="1">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="NAME :"
+    android:textSize="30dp"
+    android:textColor="@color/white"
+    android:layout_weight="0.4"
+    ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/countryname"
+        android:text="@={Cricket.countryname}"
+        android:textColor="@color/white"
+        android:layout_weight="0.5"
+        android:textSize="35dp">
+
+    </TextView>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JERSEY:"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:layout_weight="0.4"
+            ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:id="@+id/countryjersey"
+        android:textColor="@color/white"
+        android:layout_weight="0.5"
+        android:text="@={Cricket.countryjersey}">
+
+    </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RANKING:"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:layout_weight="0.4"
+            ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:id="@+id/odiranking"
+        android:textColor="@color/white"
+        android:layout_weight="0.5"
+        android:text="@={Cricket.odiranking}">
+
+    </TextView>
+    </LinearLayout>
+    </LinearLayout>
+</layout>
